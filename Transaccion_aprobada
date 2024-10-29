@@ -1,0 +1,131 @@
+{
+  "auth": {
+    "login": "2d9eaf1e662518756a3d78806543af5b",
+    "tranKey": "+tXViiqxxHceZXnIflVlPuzsQAY=",
+    "nonce": "WVdZNU1HUXpNalZtTldOaFlqTXhNREpqTkRSa05XWXpabVl6TW1NeU5qVT0=",
+    "seed": "2024-07-02T19:11:41-05:00"
+  }
+}
+
+{
+    "requestId": "3003294",
+    "status": {
+      "status": "APPROVED",
+      "reason": "00",
+      "message": "La petición ha sido aprobada exitosamente",
+      "date": "2024-07-02T19:11:41-05:00"
+    },
+    "request": {
+      "locale": "es_CO",
+      "payer": {
+        "document": "1070627252",
+        "documentType": "CC",
+        "name": "test",
+        "surname": "test",
+        "email": "juan.montero@evertecinc.com",
+        "mobile": "+573168502548"
+      },
+      "payment": {
+        "reference": "ORDER_ID_12345",
+        "description": "Testing payment",
+        "amount": {
+          "currency": "USD",
+          "total": 120
+        },
+        "allowPartial": false,
+        "subscribe": false
+      },
+      "fields": [
+        {
+          "keyword": "_processUrl_",
+          "value": "https://checkout-test.placetopay.com/spa/session/3003294/59f5593420ae69e97c77e6d8fdf46ee9",
+          "displayOn": "none"
+        },
+        {
+          "keyword": "_session_",
+          "value": 3003294,
+          "displayOn": "none"
+        }
+      ],
+      "returnUrl": "http://example.com/response?reference=ORDER_ID_12345",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36",
+      "expiration": "2024-07-04T06:28:24+02:00",
+      "captureAddress": false,
+      "skipResult": false,
+      "noBuyerFill": false
+    },
+    "payment": [
+      {
+        "status": {
+          "status": "APPROVED",
+          "reason": "00",
+          "message": "Aprobada",
+          "date": "2024-07-02T08:39:01-05:00"
+        },
+        "internalReference": "1598813695",
+        "paymentMethod": "visa",
+        "paymentMethodName": "Visa",
+        "issuerName": "JPMORGAN CHASE BANK, N.A.",
+        "amount": {
+          "from": {
+            "currency": "USD",
+            "total": 120
+          },
+          "to": {
+            "currency": "COP",
+            "total": 497765
+          },
+          "factor": 4148.04
+        },
+        "authorization": "000000",
+        "reference": "ORDER_ID_12345",
+        "receipt": "99927541",
+        "franchise": "CR_VS",
+        "refunded": false,
+        "processorFields": [
+          {
+            "keyword": "merchantCode",
+            "value": "011271442",
+            "displayOn": "none"
+          },
+          {
+            "keyword": "terminalNumber",
+            "value": "00057742",
+            "displayOn": "none"
+          },
+          {
+            "keyword": "bin",
+            "value": "411111",
+            "displayOn": "none"
+          },
+          {
+            "keyword": "expiration",
+            "value": "1228",
+            "displayOn": "none"
+          },
+          {
+            "keyword": "installments",
+            "value": 1,
+            "displayOn": "none"
+          },
+          {
+            "keyword": "lastDigits",
+            "value": "1111",
+            "displayOn": "none"
+          },
+          {
+            "keyword": "id",
+            "value": "d968224fc3d45c3fbc96356187b64f1d",
+            "displayOn": "none"
+          },
+          {
+            "keyword": "b24",
+            "value": "000",
+            "displayOn": "none"
+          }
+        ]
+      }
+    ]
+  }
+
